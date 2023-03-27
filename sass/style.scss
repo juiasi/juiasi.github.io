@@ -7,8 +7,8 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #cabcab !default;
-$brand-secondary: #a9974e !default; 
+$brand-primary: #dacaff !default;
+$brand-secondary: #bfa3ff !default; 
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -111,7 +111,7 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.7;
-	color: #828282;
+	color: #dacaff;
 	background: #fff;
 }
 #page {
@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	p {
 		font-size: 18px;
 		line-height: 1.5;
-		color: #828282;
+		color: #dacaff;
 	}
 	span{
 		display: block;
@@ -751,8 +751,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	.btn {
 		margin-top: 20px;
-		border: 3px solid rgba(#8c7961,1);
-		color: rgba(#8c7961,1);
+		border: 3px solid rgba(#bfa3ff,1);
+		color: rgba(#bfa3ff,1);
 		font-size: 20px;
 		// text-transform: uppercase;
 		font-weight: 400;
@@ -760,8 +760,8 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding-left: 70px;
 		padding-right: 70px;
 		&:hover{
-			background: #8c7961 !important;
-			border: 3px solid rgba(#8c7961,1) !important;
+			background: #bfa3ff !important;
+			border: 3px solid rgba(#bfa3ff,1) !important;
 			color: #fff;
 		}
 	}
