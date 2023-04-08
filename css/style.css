@@ -105,10 +105,15 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
 }
 .fh5co-nav .fh5co-top-logo {
-  /* width: 20%; */
+  width: 20%;
 }
 .fh5co-nav .fh5co-top-menu {
   width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-nav .fh5co-top-logo {
+    width: auto;
+  }
 }
 .fh5co-nav .fh5co-top-social {
   width: 20%;
