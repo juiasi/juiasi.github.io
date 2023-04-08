@@ -387,21 +387,28 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-started,
 #fh5co-author,
-#fh5co-work,
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
   padding: 7em 0;
   clear: both;
 }
+
+#fh5co-work {
+  padding: 3em 0;
+  clear: both;
+}
 @media screen and (max-width: 768px) {
   #fh5co-started,
   #fh5co-author,
-  #fh5co-work,
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
     padding: 3em 0;
+  }
+  #fh5co-work {
+    padding: 1em 0;
+    clear: both;
   }
 }
 
@@ -1295,4 +1302,21 @@ blockquote .person cite {
   margin: 0 0 5px 0;
 }
 
+.main-banner {
+  display: table;
+  height: 300px;
+  width: 100.1%;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+.main-banner .desc{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+.main-banner h1{
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
