@@ -1369,3 +1369,14 @@ figcaption {
 #project-content figure img {
   margin-bottom: 0;
 }
+
+#project-content figure .row {
+  margin: 0;
+}
+#project-content figure .col-md-8,
+#project-content figure .col-md-6,
+#project-content figure .col-md-4{
+  padding: 0;
+}
+
+
