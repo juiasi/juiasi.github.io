@@ -1323,12 +1323,18 @@ blockquote .person cite {
   margin: 0 0 5px 0;
 }
 
-.main-banner {
+.work .work-grid-main-banner {
   display: table;
-  height: 300px;
+  height: 150px;
   width: 100.1%;
   vertical-align: middle;
   padding: 40px;
+}
+
+.main-banner{
+  width: 100.1%;
+  display: table;
+  vertical-align: middle;
 }
 
 .main-banner .desc{
@@ -1336,13 +1342,23 @@ blockquote .person cite {
   vertical-align: middle;
 }
 
-.main-banner h1{
+.main-banner h1, .main-banner{
   color: #ffffff;
+}
+
+.main-banner h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+.main-banner span{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 768px) {
   .main-banner h1{
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
