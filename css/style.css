@@ -5,14 +5,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Raleway";
+  src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: medium;
+  font-style: medium;
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
@@ -48,13 +55,13 @@ body {
 }
 
 a {
-  color: #cabcab;
+  color: #B95ABB;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #cabcab;
+  color: #B95ABB;
   outline: none;
   text-decoration: none;
 }
@@ -65,24 +72,24 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #cabcab;
+  background: #B95ABB;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #cabcab;
+  background: #B95ABB;
 }
 
 ::selection {
   color: #fff;
-  background: #cabcab;
+  background: #B95ABB;
 }
 
 .fh5co-nav {
@@ -122,10 +129,23 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: "Montserrat", Arial, sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: medium;
+  font-family: "Raleway", Arial, sans-serif;
 }
+
+.fh5co-nav #fh5co-logo a {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  /* color: #828282; */
+}
+
+.fh5co-nav #fh5co-logo a img {
+  height: 28px;
+  margin-right: 12px;
+}
+
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
   padding: 0;
@@ -197,7 +217,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -273,7 +293,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-nav ul li.active > a {
-  color: #cabcab !important;
+  color: #B95ABB !important;
 }
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
@@ -335,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #cabcab;
+  color: #B95ABB;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -354,7 +374,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #cabcab;
+  color: #B95ABB;
   position: absolute;
   left: 0;
   top: .05em;
@@ -428,7 +448,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .feature-center .icon {
   width: 90px;
   height: 90px;
-  background: #cabcab;
+  background: #B95ABB;
   display: table;
   text-align: center;
   margin-bottom: 30px;
@@ -539,7 +559,7 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 1;
 }
 .work:hover .desc h3 a, .work:focus .desc h3 a {
-  color: #cabcab;
+  color: #B95ABB;
 }
 
 .top-line {
@@ -554,7 +574,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -598,7 +618,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1px;
   color: #000;
 }
@@ -616,7 +636,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 .title {
@@ -667,7 +687,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
 }
 .author .desc .fh5co-social-icons li a {
-  color: #cabcab;
+  color: #B95ABB;
   padding-left: 0;
   padding-right: 10px;
 }
@@ -689,28 +709,28 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   border-radius: 50px;
-  background: #cabcab !important;
+  background: #B95ABB !important;
 }
 
 #fh5co-started {
-  background: #cabcab;
+  background: #B95ABB;
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 0px !important;
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
-  color: #685641;
+  color: #ffffff;
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
-  color: #685641;
+  color: #ffffff;
   margin-bottom: 0px !important;
 }
 #fh5co-started .btn {
   margin-top: 20px;
-  border: 3px solid #8c7961;
-  color: #8c7961;
+  border: 3px solid #fd7aff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   padding: 20px 0;
@@ -718,8 +738,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 70px;
 }
 #fh5co-started .btn:hover {
-  background: #8c7961 !important;
-  border: 3px solid #8c7961 !important;
+  background: #fd7aff !important;
+  border: 3px solid #fd7aff !important;
   color: #fff;
 }
 
@@ -875,7 +895,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 10px 6px;
   line-height: 0;
   font-size: 11px;
-  background: #cabcab;
+  background: #B95ABB;
   color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1069,7 +1089,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1093,21 +1113,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #cabcab;
+  background: #B95ABB;
   color: #fff;
-  border: 2px solid #cabcab;
+  border: 2px solid #B95ABB;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #d4c8bb !important;
-  border-color: #d4c8bb !important;
+  background: #fd7aff !important;
+  border-color: #fd7aff !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #cabcab;
-  border: 2px solid #cabcab;
+  color: #B95ABB;
+  border: 2px solid #B95ABB;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #cabcab;
+  background: #B95ABB;
   color: #fff;
 }
 
@@ -1237,7 +1257,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #cabcab;
+  border-color: #B95ABB;
 }
 
 .row-pt-md {
@@ -1287,7 +1307,7 @@ blockquote p {
   color: #666666;
 }
 blockquote .person {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
@@ -1363,7 +1383,7 @@ blockquote .person cite {
 }
 
 .dark-bg {
-  background: #cabcab
+  background: #B95ABB
 }
 /*# sourceMappingURL=style.css.map */
 
